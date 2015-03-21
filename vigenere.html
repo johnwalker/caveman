@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
     <link href="css/vigenere.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8"/>
+
     <meta name="description" contents="An app for producing vigenere ciphertext. Built with Om and React.js."/>
   </head>
   <body>
-    <div id="app">
-      <p>This page requires javascript. No analytics, I promise.</p>
+    <div class="post-content">
+      <div class="wrapper">
+        <div class="post">
+          <header class="post-header">
+            <h1 class="post-title"> Vigenere Autokey Cipher</h1></header>
+          <p> <a href="http://en.wikipedia.org/wiki/Autokey_cipher">
+              In an autokey cipher</a>, the plaintext is incorporated
+            into the key. Choose a password of length n to encrypt
+            the first n characters of the plaintext. Those n
+            characters of the plaintext are used to encrypt the
+            following n characters. Characters that aren't in the
+            alphabet are unchanged in the ciphertext, only
+            characters that are in the alphabet may be in the
+            password, and no password character is "skipped" because
+            of plaintext that isn't in the alphabet. We repeat the
+            process until all plaintext has been encrypted. </p>
+          <div id="app">
+            <p>This page requires javascript. No analytics, I promise.</p>
+          </div>
+          <script src="js/vigenere.js" type="text/javascript"></script>
+        </div>
+      </div>
     </div>
-    <script src="js/vigenere.js" type="text/javascript"></script>
   </body>
+
 </html>
