@@ -1,9 +1,7 @@
 nav {
   font-size: 1.3em; }
 
-/**
- * Reset some basic elements
- */
+* Reset some basic elements
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -14,10 +12,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  font-weight: 300;
+  line-height: 1.6;
+  font-weight: 200;
   color: #000;
   background-color: #fff;
   -webkit-text-size-adjust: 100%; }
@@ -147,7 +145,7 @@ pre {
 
 /**
  * Site header
- */
+*/
 .site-header {
   border-bottom: 1px solid #eeeeee;
   min-height: 56px;
@@ -172,7 +170,7 @@ pre {
 
 /**
  * Site footer
- */
+*/
 .site-footer {
   border-top: 1px solid #eeeeee;
   padding: 30px 0; }
@@ -205,6 +203,18 @@ pre {
   list-style: none;
   margin-top: 0.5rem; }
 
+div#mainwrapper {
+  margin-left: 0;
+  padding-left: 0; }
+
+div#posts {
+  float: left; }
+
+div#projects {
+  float: right;
+  margin-bottom: 1rem;
+  margin-left: 2rem; }
+
 @media screen and (max-width: 800px) {
   .footer-col-1,
   .footer-col-2 {
@@ -221,7 +231,7 @@ pre {
     width: calc(100% - (30px / 2)); } }
 /**
  * Page content
- */
+*/
 .page-content {
   padding-top: 30px; }
 
@@ -244,7 +254,7 @@ pre {
 
 /**
  * Posts
- */
+*/
 .post-header {
   margin-bottom: 30px; }
 
