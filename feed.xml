@@ -2,13 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>johnwalker</title>
-    <description>A programmer tries hard at programming and photography. Please no food/mountain pics or selfies. 
+    <description>A programmer attempts to live. 
 </description>
     <link>http://johnwalker.io/</link>
     <atom:link href="http://johnwalker.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Feb 2015 00:21:49 -0500</pubDate>
-    <lastBuildDate>Sun, 15 Feb 2015 00:21:49 -0500</lastBuildDate>
+    <pubDate>Thu, 23 Apr 2015 02:07:58 -0400</pubDate>
+    <lastBuildDate>Thu, 23 Apr 2015 02:07:58 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Plane story</title>
+        <description>&lt;p&gt;I rode an airplane recently. The boarding process was the usual.&lt;/p&gt;
+
+&lt;p&gt;“Veterans?”&lt;/p&gt;
+
+&lt;p&gt;“Ruby or Gold members?”&lt;/p&gt;
+
+&lt;p&gt;“Preferred customers?”&lt;/p&gt;
+
+&lt;p&gt;“Zone 1.”&lt;/p&gt;
+
+&lt;p&gt;“Zone 2.”&lt;/p&gt;
+
+&lt;p&gt;“Zone 3.” It’s my turn. I get in line and hand the Gate Agent my
+ticket. He looks at the name on the ticket for a while.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Johnnie_Walker&quot;&gt;“Red, Blue, Green, Black, Gold, what are ya?”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;“I’m zone 3.”&lt;/p&gt;
+
+&lt;p&gt;Derp.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Apr 2015 00:00:00 -0400</pubDate>
+        <link>http://johnwalker.io/post/plane-story.html</link>
+        <guid isPermaLink="true">http://johnwalker.io/post/plane-story.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
   </channel>
 </rss>
