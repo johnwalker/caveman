@@ -5,11 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>johnwalker</title>
-  <meta name="description" content="A programmer attempts to live. 
-">
+  <title>Cider and clj-refactor in Boot</title>
+  <meta name="description" content="Boot is an alternative to Leiningen. I am trying it out to determineif it is viable for my work. If I had to give up clj-refactor orCider, then I would not b...">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://johnwalker.io/">
+  <link rel="canonical" href="http://johnwalker.io/post/cider-and-clj-refactor-in-boot.html">
   <link rel="alternate" type="application/rss+xml" title="johnwalker" href="http://johnwalker.io/feed.xml" />
   <link rel="stylesheet" href="/css/pygments.css">
 </head>
@@ -17,35 +16,41 @@
   <body>
     <div class="page-content">
       <div class="wrapper">
-        <div id="mainwrapper" class="wrapper">
-  <div id="posts">
-    <h3>Posts </h3>
-    
-    <li class = "posts-post">
-      <span class="date"> 2015 05 25 </span>
-      <a href="/post/cider-and-clj-refactor-in-boot.html">
-        Cider and clj-refactor in Boot
-      </a>
-    </li>
-    
-    <li class = "posts-post">
-      <span class="date"> 2015 04 17 </span>
-      <a href="/post/plane-story.html">
-        Plane story
-      </a>
-    </li>
-    
-  </div>
-  <div id="projects">
-    <h3>Recent Hacks</h3>
-    <li class="posts-post"><a href="/vigenere">1: Vigenere Autokey Cipher</a></li>
-    <li class="posts-post"><a href="/astrolander">0: Astrolander</a></li>
-  </div>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Cider and clj-refactor in Boot</h1>
+  </header>
+
+  <article class="post-content">
+    <p>Boot is an alternative to Leiningen. I am trying it out to determine
+if it is viable for my work. If I had to give up clj-refactor or
+Cider, then I would not be able to consider it. Fortunately it is not
+much work to setup in Boot either.</p>
+
+<p>Set <code>~/.profile.boot</code> to the snippet below, updating the versions in
+the dependency coordinates as needed. If you are using emacs, then
+test it using <code>cider-jack-in</code> in a file in the project. Everything
+should just work.</p>
+
+<div class="highlight"><pre><code class="language-clojure" data-lang="clojure"><span class="p">(</span><span class="nf">require</span> <span class="ss">&#39;boot.repl</span><span class="p">)</span>
+
+<span class="p">(</span><span class="nf">swap!</span> <span class="nv">boot.repl/*default-dependencies*</span> <span class="nv">conj</span>
+       <span class="o">&#39;</span><span class="p">[</span><span class="nv">cider/cider-nrepl</span> <span class="s">&quot;0.9.0-SNAPSHOT&quot;</span><span class="p">]</span>
+       <span class="o">&#39;</span><span class="p">[</span><span class="nv">refactor-nrepl</span> <span class="s">&quot;1.1.0-SNAPSHOT&quot;</span><span class="p">])</span>
+
+<span class="p">(</span><span class="nf">swap!</span> <span class="nv">boot.repl/*default-middleware*</span> <span class="nv">conj</span>
+       <span class="ss">&#39;cider.nrepl/cider-middleware</span>
+       <span class="ss">&#39;refactor-nrepl.middleware/wrap-refactor</span><span class="p">)</span></code></pre></div>
+
+
+  </article>
+
 </div>
 
-	<div class="footer-col-wrapper site-footer">
+        <div class="footer-col-wrapper site-footer">
           <div class="footer-col">
-            <p>Home</p>
+            <a href="/">Home</a>
           </div>
           <div class="footer-col">
             <div class="about">
