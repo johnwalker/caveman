@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/johnwalker
+--------------------------------------------------------------------
+I hereby claim:
+  * I am an admin of http://johnwalker.io
+  * I am johnwalker (https://keybase.io/johnwalker) on keybase.
+  * I have a public key with fingerprint E3DC 4D7C 5841 1A13 C6B0  113A A466 D810 6D80 FCE1
+To do so, I am signing this object:
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.9"
+        },
+        "key": {
+            "fingerprint": "e3dc4d7c58411a13c6b0113aa466d8106d80fce1",
+            "host": "keybase.io",
+            "key_id": "A466D8106D80FCE1",
+            "uid": "39cfeffb6532795d981a5c7b5b833419",
+            "username": "johnwalker"
+        },
+        "merkle_root": {
+            "ctime": 1434318338,
+            "hash": "333fdab4bcc516edd012748d6af7b877c5d617b7c0a8b39b0333f919e9b6cec3a4133f548970fedbcf6ecb83cea1972b9b19b98e8b7054e68b887b7d2d7424f9",
+            "seqno": 246693
+        },
+        "service": {
+            "hostname": "johnwalker.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1434318597,
+    "expire_in": 157680000,
+    "prev": "8b45d5696e4b6a6ffa4573c0cdbb6f5ce11623619113c76a194655a95e302b56",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFlkn1MVXUYx4GEEHnbWsMQkB0SEuh2zj3v19Yq4BpBCxNcCEjn9zu/A8cL91zO
+uXBlAr5uRDN5GcVLAZpILW3gAJfRXDAomYgT2YBsDlZLiIKEBHUSnUO0cp0/zs75
+/T7P93m+z/NU+T3h5u3eKo0H5h9+NOV+dQa4pZUuex7EgCIWY5aDGMyTkd1pfNmF
+fIRZMBsqBoKGTLISbldEZNqvha8zsVgRUjVZsesUbmJNPFYaa+BGsCTbc5DqUGVD
+C0OkCCmRhTRHEYRAkJABOEGQgkAxjMgRuP7CJYgIXTJX0ZyPZcXWNLNlUT99Refj
+DT6ew61xCQZfuHZB8lBCkgQYmjSzPC3yHCHQkAU04EiSIngD1JC6bmm/kmt3CXk2
+pBoV5yPVloeyVUVZsw2dsgERFEmRhB7N6TUJWq6RhCQlUQAUgJAmGCSKOGFmKU5k
+BIkFHKvbExmCBSzEBQ6QPMCNAJ7gEQ8YiCApUIR+QFMcz+ISEgGUGAT1AiESCJ41
+Ax4QPOA5xAEWpynEcIDjdDnRLLKUmZIMExoqsCuYxaz3gSdLjX+1SIbIqNto3P/8
+/d0/h6o4Fajk6Ve5TqfDYrh2FjsM1NWBQPa6SjaQ7aI+t/8OltDRxztC82wshg44
+ZBVlywZBswyH64+RBxXpmhygaJFmeAZRgBEYSRIomiUhDkUAGInW50wwZpIheH0F
+IMvo5imGpgWeRiRuBjTzr09Sr1PI0SU1OccuOAtVhJVWeIRscHP3dvPy9DA2181n
+Y+A/63wiJGAlrP/5p2KGfcmso9VlXsXiNwG9cWVjHs8uofyeyYGiwU9mfGOLexM9
+LvkkWtvrHkbalrf3nfGrWx29Pt1cEdzJmvZkXI6yjpd0zYHCZm7h8+7aK+bN5VbL
+i9+FOxptkTWW0s/6d6vvBN3J8gqu+vqmlvrDVTJl+CfP4xEZX+W9uvVaR0vz/Mva
+QOuGvVEpc28NOhc+zkzI/IA8tOnX3waH+KyKmJs+c2Ojc13zMV+UT6odmyxRfdtD
+X/K+fehuvUy0kTt6zlZf7xgbT7VHpMWPfu/qmnybTt0zn5BRfuP0ao1twLfH5iF1
+v9bUPr5QlTx66T78aOsB/6b0HS3X4n5fvjJXf7ZuFUW6N/ZqUn9rQOe0dRuv5br8
+/ZNzfOIdraHkz5823W1w7Xsuc8raPDT050RSQWy6Ne3Bj+8F1j4zcSzUMds0a3Ud
+PXJnJKR9JKMrqnZzb0TMYknftkHTt2lJFaFBJSM33kzfuzPzQXV65Ykk7/qURtOU
+FyZOBs8U1LRItrbXZ3bSYRe/vLDr3uTh24mjcbEXgqxvnJ4YMm0MEU/2Prn4x3J1
+QBseNdLTuuVR5y8Bt144uVJZGBW9dKvh1LnzR54eHRZ3T8DudnOQ+4qp0u/M6lKy
+Z2Z0nbbYcKrgvqviw32XK+bfTz4/y0/dC5gsOz4Mt+yaOXdR6Tg2ngcTpz0fRoe9
+m/0X
+=fm6o
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/johnwalker
+
+==================================================================
+
+
+
